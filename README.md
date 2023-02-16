@@ -36,7 +36,7 @@
 
 ### Build Docker image for the python app from the Dockerfile, and upload the image to gcr
 
-- $ `docker build -t gcp-python .`
+- $ `docker build -t python-abdelrahman .`
 - $ `docker tag python-abdelrahman gcr.io/imposing-ratio-319309/python-abdelrahman`
 - $ `docker push gcr.io/imposing-ratio-319309/python-abdelrahman`
 
